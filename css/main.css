@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+BODY {
+    width: 100%;
+    background-image: url("../img/backgroundmedia5.jpg");
+    background-repeat: repeat;
+    font-family: 'Jura', sans-serif;
+    font-size: 12pt;
+    color: #84969b;
+    text-align: center;
+}
+
+@media screen and (max-width: 800px) {
+    .pageContent {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        background-position-x: -60px;
+
+    }
+    .nav_menu {
+        width: 100%;
+    }
+    .mainpage {
+        width: 100%;
+    }
+    .page{
+        width: 100%;
+        justify-content: center;
+    }
+    #mainpage {
+        width: 100%;
+        height: 700px;
+    }
+    .pageHeader{
+        width: 100%;
+    }
+    .main-menu{
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 800px) {
+    .page {
+        width: 1000px;
+    }
+
+    #mainpage {
+        width: 900px;
+        height: 600px;
+    }
+
+    .pageContent {
+        min-width: 1000px;
+    }
+
+    .nav_menu {
+        width: 808px;
+        max-width: 808px;
+        margin-left: 85px;
+    }
+    .pageHeader{
+        width: 800px;
+    }
+}
+.page {
+    display: block;
+    min-height: 800px;
+    box-sizing: border-box;
+}
+
+.pageHeader {
+    clear: none;
+    min-height: 100px;
+    box-sizing: border-box;
+    text-align: center;
+    opacity: 0.98;
+}
+.pageHeader img{
+    max-width: 550px;
+    width: 100%;
+}
+.pageContent {
+    background-image: url("../img/iframeBackground.png");
+    background-repeat: no-repeat;
+    background-size: 1000px 700px;
+    float: left;
+    clear: none;
+    min-height: 700px;
+    width: 100%;
+    box-sizing: border-box;
+    text-align: center;
+    padding: 5px;
+}
+.main-menu {
+    opacity: 0.9;
+}
+.body_content{
+    width:100%;
+    display: flex;
+    justify-content: center
+}
+body {
+    width: 100%;
+}
+.nav_menu a {
+    margin: auto 30px;
+}
+
+.nav_menu a:hover {
+    opacity: 0.5;
+}
+
+#mainpage {
+    border: 0;
+    padding-top: 30px;
+}
+
+a:link {
+    color: rgba(132, 150, 155, 0);
+}
+
+a:visited {
+    color: rgba(132, 150, 155, 0);
+}
+
+::-webkit-scrollbar {
+    width: 12px; /* width of the entire scrollbar */
+}
+
+::-webkit-scrollbar-track {
+    background: rgba(120, 142, 164, 0); /* color of the tracking area */
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: rgba(83, 83, 101, 0.52); /* color of the scroll thumb */
+    border-radius: 10px; /* roundness of the scroll thumb */
+    border: 1px solid rgba(255, 255, 255, 0.55); /* creates padding around scroll thumb */
+}

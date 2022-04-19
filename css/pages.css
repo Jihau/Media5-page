@@ -1,0 +1,60 @@
+body {
+    font-family: 'Jura', sans-serif;
+    font-size: 12pt;
+    color: rgba(255, 255, 255, 0.87);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.small_header{
+    font-size: 13pt;
+}
+
+button{
+    background-color: #212126;
+    color: white;
+    border: #adc9ce;
+    font-family: 'Jura', sans-serif;
+    font-size: 12pt;
+}
+
+@media screen and (max-width: 800px) {
+    .pageArticle{
+        padding-top: 20px;
+        padding-right: 10px;
+        justify-content: center;
+    }
+}
+@media screen and (min-width: 800px) {
+    .pageArticle{
+        padding-top: 20px;
+        margin: auto 60px;
+        justify-content: center;
+    }
+}
+#audioArticle {
+    align-content: center;
+}
+.video {
+    border-color: rgba(255, 255, 255, 0);
+}
+::-webkit-scrollbar {
+    width: 12px; /* width of the entire scrollbar */
+}
+
+::-webkit-scrollbar-track {
+    background: rgba(120, 142, 164, 0); /* color of the tracking area */
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: rgba(83, 83, 101, 0.52); /* color of the scroll thumb */
+    border-radius: 10px; /* roundness of the scroll thumb */
+    border: 1px solid rgba(255, 255, 255, 0.55); /* creates padding around scroll thumb */
+}
+.player {
+    opacity: 0.5;
+}
+.audioClips {
+    padding-top: 10px;
+}
